@@ -97,3 +97,9 @@ input{
   border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
+
+.flag{
+  color: green;
+  border-style: solid;
+  display: flex;
+}
