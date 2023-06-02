@@ -38,32 +38,46 @@
                 <i class="fa fa-phone" style="color: #71787a" ;></i>
             </div>
             <br>
-            <div class="wrapper">
-                <input type="text" id="nombre" />
-                <button id="btnAgregar" type="submit">Gustos</button>
+            <div id="gustos" class="wrapper">
+                <input type="text" id="gust0" class="form-control" />
+                <span>
+                    <button id="gustos" type="button" onclick="addRows()">Gustos</button>
+                </span>
+            </div>
+            <br>
+            <div class="second-container">
+                <div class="input-group">
+                    <div class="flag">
+                        <button id="flag" type="button">
+                            <i class="fa fa-flag"></i>
+                        </button>
+                    </div>
+                    <div id="miTabla">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id="gustos">Gustos</th>
+                                    <th scope="col">%</th>
+                                    <th scope="col">Editar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
 
-            <div class="flag">
-                <i class="fa fa-flag"></i>
+            <br>
+            <div id="finalButton">
+                
+            
             </div>
 
-            <div class="tabla">
-                adkawdpoa
-                <br>
-                <br>
-            </div>
 
-            <table id="miTabla">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Aquí se agregarán las filas de datos -->
-                </tbody>
-            </table>
+
+
+
 
 
 
