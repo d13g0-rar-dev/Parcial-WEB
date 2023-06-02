@@ -60,13 +60,13 @@ function editRows() {
       var divBut = document.getElementById("finalButton");
 
       divBut.innerHTML =
-        '<button id="cancelar" type="button" onclick="cancelFun()">Cancelar</button><button id="aceptar" type="button" onclick="acceptFun()">Aceptar</button>';
+        '<button id="aceptar" type="button" onclick="acceptFun()">Aceptar</button><button id="cancelar" type="button" onclick="cancelFun()">Cancelar</button>';
     });
   });
 }
 
 function acceptFun() {
-  window.location.href = "index2.html";
+  window.location.href = "resultado.html";
 }
 
 function cancelFun() {

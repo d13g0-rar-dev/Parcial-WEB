@@ -172,6 +172,7 @@ td, th {
   border: #881515;
   border-style: solid ;
   border-width: 1.5px;
+  margin-left: 15px;
 }
 
 #aceptar{
@@ -183,7 +184,6 @@ td, th {
   border: #3dd417;
   border-style: solid ;
   border-width: 1.5px;
-  margin-left: 15px;
 }
 
 #cancelar:hover, #aceptar:hover{
