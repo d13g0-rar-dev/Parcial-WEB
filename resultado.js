@@ -2,28 +2,28 @@ $(document).ready(function () {
     const urlParams = new URLSearchParams(window.location.search);
 
     const email = document.createElement("p");
-    const phone = document.createElement("p");
-    const like = document.createElement("p");
-    const perc = document.createElement("p");
+    const telefono = document.createElement("p");
+    const gusto = document.createElement("p");
+    const porcen = document.createElement("p");
 
-    document.getElementById("nombre").innerText = urlParams.get("username") || "N/A";
+    document.getElementById("nombre").innerText = urlParams.get("nombre") || "N/A";
     
     email.innerText = urlParams.get("email") || "N/A";
     email.classList.add("text__stats","bg-info");
 
-    phone.innerText = urlParams.get("phone") || "N/A";
-    phone.classList.add("text__stats", "bg-info");
+    telefono.innerText = urlParams.get("tel") || "N/A";
+    telefono.classList.add("text__stats", "bg-info");
 
-    like.innerText = urlParams.get("gusto") || "N/A";
-    like.classList.add("text__stats", "bg-info");
+    gusto.innerText = urlParams.get("gusto") || "N/A";
+    gusto.classList.add("text__stats", "bg-info");
 
-    perc.innerText = urlParams.get("porcentaje") || "N/A";
-    perc.classList.add("text__stats", "bg-info");
+    porcen.innerText = urlParams.get("porcentaje") || "N/A";
+    porcen.classList.add("text__stats", "bg-info");
 
     document.getElementById("email").appendChild(email);
-    document.getElementById("telefono").appendChild(phone);
-    document.getElementById("gusto").appendChild(like);
-    document.getElementById("porcentaje").appendChild(perc);
+    document.getElementById("telefono").appendChild(telefono);
+    document.getElementById("gusto").appendChild(gusto);
+    document.getElementById("porcentaje").appendChild(porcen);
 
     console.log()
 });

@@ -18,27 +18,27 @@
     </div>
     <br>
     <div>
-        <form class="formulario">
+        <form action="resultado.html" method="get" class="formulario">
             Formulario de Afiliacion
             <br><br>
             <div class="input-container">
-                <input type="text" placeholder="Nombre Completo">
+                <input type="text" id="nombre" placeholder="Nombre Completo">
                 <span><i class="fa fa-user" style="color: #71787a;"></i></span>
 
             </div>
             <br>
             <div class="input-container">
-                <input type="email" placeholder="Email">
+                <input type="email" id="email" placeholder="Email">
                 <i class="fa fa-envelope" style="color: #71787a" ;></i>
             </div>
             <br>
             <div class="input-container">
-                <input type="tel" placeholder="text">
+                <input type="tel" id="telefono" placeholder="text">
                 <i class="fa fa-phone" style="color: #71787a" ;></i>
             </div>
             <br>
             <div id="gustos" class="wrapper">
-                <input type="text" id="gust0" class="form-control" />
+                <input type="text" id="gusto" class="form-control" />
                 <span>
                     <button id="gustos" type="button" onclick="addRows()">Gustos</button>
                 </span>
